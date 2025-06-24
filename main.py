@@ -79,6 +79,14 @@ print(type(h))  # Still a list!
 print(h) 
 
 
+#we can also convert string to list like this
+line = "1,2,3"
+print(line.split(",")) #['1', '2', '3']
+line = "1-2-3"
+print(line.split("-")) #['1', '2', '3']
+
+
+
 
 #add some list
 name1=["6","7"]
