@@ -69,7 +69,18 @@ print(gen4) #['1', '2', '3', '4', '5', '6', '7']
 
 
 #****************Method In List*************
-#add soame list
+
+
+# convert string to list
+import json #must include
+h="[1,2,3]"
+h = json.loads(h)
+print(type(h))  # Still a list!
+print(h) 
+
+
+
+#add some list
 name1=["6","7"]
 name=name+name1
 print(name)
